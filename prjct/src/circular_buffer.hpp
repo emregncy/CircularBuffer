@@ -77,6 +77,101 @@ class CircularBuffer {
             return _size >= _capacity;
         }
 
+
+
+        /** */
+        // Creating a iterator for my circular CircularBuffer
+        
+        template <typename Buffer, typename Iterator>
+        class CircularBufferIterator {
+        public :
+            using iterator_category = std::forward_iterator_tag;
+            using value_type = typename Buffer::value_type;
+            using difference_type = std::ptrdiff_t;
+            using pointer = typename Buffer::value_type*;
+            using reference = typename Buffer::value_type&; 
+
+
+            CircularBufferIterator() : done(true) {}
+            
+            CircularBufferIterator(const Buffer& buf, Iterator begin) :
+                _buf(buf), _begin(begin), cursor(begin), done(false) {}
+            
+            CircularBufferIterator(const Buffer& buf, Iterator begin, bool done) :
+                _buf(buf), _begin(begin), cursor(begin), done(done) {}
+
+                reference operator*() const {
+                    return *cursor;
+                }
+
+                pointer operator->() const {
+                    return cursor;
+                }
+
+
+                CircularBufferIterator& operator++() {
+                    ++cursor;
+                    if (cursor == _buf.end()) {
+                        cursor = const_cast<Iterator>(_buf.begin());
+                    }
+
+                    done = cursor == _begin;
+
+                    return *this;
+                }
+
+                CircularBufferIterator operator++(int) {
+                    iterator tmp(*this);
+                    ++cursor;
+                    if(cursor == _buf.end()) {
+                        cursor = const_cast<Iterator>(_buf.begin());
+                    }
+
+                    done = cursor == _begin;
+
+                    return tmp;
+                }
+
+
+                bool operator==(const CircularBufferIterator& it) const {
+                    if (done && it._done) {
+                        return true;
+                    }
+                    else if (!done && !it._done) {
+                        return (this->_cursor == it._cursor);
+                    }
+
+                    return false;
+                }
+
+                bool operator!=(const CircularBufferIterator& it) const {
+                    return !(*this == it);
+                } 
+
+
+        private :
+            const Buffer& _buf;
+            const Iterator _begin;
+            Iterator cursor;
+            bool done;
+      
+      
+      
+        };
+
+        typedef CircularBufferIterator<Container, typename Container::iterator> iterator;
+
+        iterator begin() {
+            unsigned int offset = _head % _capacity;
+            return CircularBuffer::iterator(c, c.begin() + offset);
+        }
+
+        iterator end() {
+            unsigned int offset = _tail +1 % _capacity;
+            return CircularBuffer::iterator(c, c.begin() + offset, full());
+        }
+
+
     private :
         Container c;
 

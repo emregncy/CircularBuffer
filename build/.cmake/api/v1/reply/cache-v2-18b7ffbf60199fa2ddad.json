@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/emre/Desktop/New_prjct/build"
+			"value" : "/home/emre/Desktop/C\u0130rcular_buffer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -514,6 +514,10 @@
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
 					"value" : "No help, variable specified on the command line."
 				}
@@ -543,7 +547,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emre/Desktop/New_prjct/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/emre/Desktop/C\u0130rcular_buffer/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -603,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/emre/Desktop/New_prjct/prjct"
+			"value" : "/home/emre/Desktop/C\u0130rcular_buffer/prjct"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1471,7 +1475,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emre/Desktop/New_prjct/build"
+			"value" : "/home/emre/Desktop/C\u0130rcular_buffer/build"
 		},
 		{
 			"name" : "PROJECT_NAME_IS_TOP_LEVEL",
@@ -1495,7 +1499,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/emre/Desktop/New_prjct/prjct"
+			"value" : "/home/emre/Desktop/C\u0130rcular_buffer/prjct"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

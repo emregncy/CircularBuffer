@@ -1,7 +1,7 @@
-/home/emre/Desktop/New_prjct/build/CMakeFiles/PROJECT_NAME.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/edit_cache.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/rebuild_cache.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/list_install_components.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/install.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/install/local.dir
-/home/emre/Desktop/New_prjct/build/CMakeFiles/install/strip.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/PROJECT_NAME.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/edit_cache.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/rebuild_cache.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/list_install_components.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/install.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/install/local.dir
+/home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles/install/strip.dir

@@ -1,4 +1,4 @@
-# Install script for directory: /home/emre/Desktop/New_prjct/prjct
+# Install script for directory: /home/emre/Desktop/Cİrcular_buffer/prjct
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PROJECT_NAME"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/emre/Desktop/New_prjct/build/PROJECT_NAME")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/emre/Desktop/Cİrcular_buffer/build/PROJECT_NAME")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PROJECT_NAME" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/PROJECT_NAME")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -73,6 +73,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "/home/emre/Desktop/New_prjct/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/emre/Desktop/Cİrcular_buffer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

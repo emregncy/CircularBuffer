@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emre/Desktop/New_prjct/prjct
+CMAKE_SOURCE_DIR = /home/emre/Desktop/Cİrcular_buffer/prjct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emre/Desktop/New_prjct/build
+CMAKE_BINARY_DIR = /home/emre/Desktop/Cİrcular_buffer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/Desktop/New_prjct/build/CMakeFiles /home/emre/Desktop/New_prjct/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles /home/emre/Desktop/Cİrcular_buffer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/Desktop/New_prjct/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emre/Desktop/Cİrcular_buffer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

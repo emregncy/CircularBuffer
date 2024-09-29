@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/emre/Desktop/New_prjct/build/CMakeFiles/3.30.2/CMakeSystem.cmake"
+			"path" : "/home/emre/Desktop/C\u0130rcular_buffer/build/CMakeFiles/3.30.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,11 +20,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/emre/Desktop/New_prjct/build/CMakeFiles/3.30.2/CMakeCCompiler.cmake"
+			"path" : "/home/emre/Desktop/C\u0130rcular_buffer/build/CMakeFiles/3.30.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "/home/emre/Desktop/New_prjct/build/CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
+			"path" : "/home/emre/Desktop/C\u0130rcular_buffer/build/CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -135,8 +135,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/emre/Desktop/New_prjct/build",
-		"source" : "/home/emre/Desktop/New_prjct/prjct"
+		"build" : "/home/emre/Desktop/C\u0130rcular_buffer/build",
+		"source" : "/home/emre/Desktop/C\u0130rcular_buffer/prjct"
 	},
 	"version" : 
 	{

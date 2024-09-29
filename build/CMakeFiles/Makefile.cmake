@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.2/CMakeSystem.cmake"
-  "/home/emre/Desktop/New_prjct/prjct/CMakeLists.txt"
+  "/home/emre/Desktop/Cİrcular_buffer/prjct/CMakeLists.txt"
   "/usr/share/cmake-3.30/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"

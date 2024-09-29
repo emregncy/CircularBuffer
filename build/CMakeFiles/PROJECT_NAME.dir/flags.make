@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/emre/Desktop/New_prjct/prjct/include
+CXX_INCLUDES = -I/home/emre/Desktop/Cİrcular_buffer/prjct/include
 
 CXX_FLAGS = -g -std=gnu++20
 

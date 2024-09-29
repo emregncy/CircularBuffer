@@ -1,8 +1,8 @@
 [
 {
-  "directory": "/home/emre/Desktop/New_prjct/build",
-  "command": "/usr/bin/g++  -I/home/emre/Desktop/New_prjct/prjct/include -g -std=gnu++20 -o CMakeFiles/PROJECT_NAME.dir/src/main.cpp.o -c /home/emre/Desktop/New_prjct/prjct/src/main.cpp",
-  "file": "/home/emre/Desktop/New_prjct/prjct/src/main.cpp",
+  "directory": "/home/emre/Desktop/Cİrcular_buffer/build",
+  "command": "/usr/bin/g++  -I/home/emre/Desktop/Cİrcular_buffer/prjct/include -g -std=gnu++20 -o CMakeFiles/PROJECT_NAME.dir/src/main.cpp.o -c /home/emre/Desktop/Cİrcular_buffer/prjct/src/main.cpp",
+  "file": "/home/emre/Desktop/Cİrcular_buffer/prjct/src/main.cpp",
   "output": "CMakeFiles/PROJECT_NAME.dir/src/main.cpp.o"
 }
 ]
